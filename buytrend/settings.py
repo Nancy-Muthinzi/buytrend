@@ -44,18 +44,18 @@ DATABASES['default'].update(db_from_env)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
-# # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# # Quick-start development settings - unsuitable for production
-# # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
+# Quick-start development settings - unsuitable for production
+# See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
-# # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'pt-6_7nqe@03*9sll4!_@t2-&nd&i716aof+ey_1*88)ic(%08'
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'pt-6_7nqe@03*9sll4!_@t2-&nd&i716aof+ey_1*88)ic(%08'
 
-# # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
